@@ -1,0 +1,36 @@
+<head>
+    <title>Job 03</title>
+    <style>
+        .puzzle-container {
+            width: 400px;
+            height: 400px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 5px;
+        }
+
+        .puzzle-piece {
+            width: 100px;
+            height: 100px;
+            background-size: contain;
+            background-position: center;
+            cursor: pointer;
+        }
+
+        .hidden-piece {
+            background-image: url('logo9.jpg');
+            pointer-events: none;
+        }
+
+        #restartButton {
+            display: none;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
